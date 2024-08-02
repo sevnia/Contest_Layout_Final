@@ -1,0 +1,54 @@
+@charset "UTF-8";
+section {
+	width: 1000px;
+	height: auto;
+	background-color: transparent;
+	display: block;
+	/* grid-template-columns: repeat(2, 1fr);	columns = 열, 필드 */
+	/* grid-template-rows: repeat(3, minmax(115px, auto));	row = 행, 레코드 */
+	/* grid-gap: 20px; */
+	/* grid-column-gap: 50px; */
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+section > article {
+	width: 650px;
+	height: auto;
+	border-bottom: 1px solid black;
+	padding: 10px;
+}
+article > p {
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+article > a {
+	width: auto;
+	height: auto;
+	background-color: transparent;
+}
+article > a:hover {
+	text-decoration: underline;
+}
+.pagenation {
+	width: 650px;
+	height: auto;
+	background-color: transparent;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 20px;
+}
+.pagenation > button {
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	border: 1px solid rgba(200, 200, 200, 0.75);
+	cursor: pointer;
+}
+.pagenation > button:focus {
+	background-color: black;
+	color: white;
+}

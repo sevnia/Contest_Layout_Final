@@ -1,0 +1,23 @@
+<aside>
+	<a href="/main.html"><img src="/img/logo.png" alt="로고입니다." title="홈으로 바로가기"></a><hr>
+
+	<button id="hide-side">사이드 바 닫기</button>
+	<button>로그아웃</button><hr>
+	
+	<div class="user-information">
+		<div class="user-i-flex">
+			<a href="#"><img src="/img/anonymous.png" alt="모든 계정의 프로필 사진은 익명으로 되어 있습니다."></a>
+			<a href="/board/my-board.html"><p>user id</p></a>
+		</div>
+	</div><hr>
+
+	<nav>
+		<ul class="list">
+			<li><a href="/sign/sign-in.html">로그인</a></li>
+			<li><a href="/sign/sign-up.html">회원가입</a></li>
+			<li><a href="/board/notice-board.html">게시판 바로가기</a></li>
+			<li><a href="/board/announcement.html">공지사항 바로가기</a></li>
+			<li><a href="/board/my-board.html">내가 올린 게시글 확인하기</a></li>
+		</ul>
+	</nav>
+</aside>

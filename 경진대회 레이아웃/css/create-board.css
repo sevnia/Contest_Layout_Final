@@ -1,0 +1,49 @@
+@charset "UTF-8";
+section {
+	width: 1000px;
+	height: auto;
+	background-color: transparent;
+	display: block;
+	margin: 0 auto;
+}
+section > form {
+	width: 700px;
+	height: auto;
+	background-color: transparent;
+	margin: 20px;
+	padding: 20px;
+	display: block;
+}
+form > input[id="board-title"] {
+	width: 700px;
+	height: 35px;
+	padding: 5px;
+	background-color: white;
+	border: 1px solid black;
+	font-size: 14px;
+}
+form > input[id="board-title"]:focus {
+	outline: none;
+	border: 2.75px solid black;
+}
+form > textarea {
+	width: 700px;
+	height: 300px;
+	background-color: white;
+	border: 1px solid rgba(200, 200, 200, 5);
+	resize: none;
+	padding: 10px;
+	font-size: 14px;
+}
+form > #submit {
+	width: 100px;
+	height: 30px;
+	background-color: transparent;
+	border: 1px solid black;
+	text-align: center;
+	cursor: pointer;
+}
+form > #submit:hover {
+	background-color: black;
+	color: white;
+}

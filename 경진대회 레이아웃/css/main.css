@@ -1,0 +1,377 @@
+@charset "UTF-8";
+/* main.css는 header, aside, footer css파일을 가져온 것 */
+/* section에 들어갈 content(article)는 페이지마다 */
+/* css가 다르고 css파일 이름도 다름 */
+header {
+    height: auto;   /* 높이는 auto지만 img의 높이가 60이므로 height: 60px */
+    padding: 5px;
+	background-color: transparent;
+}
+header > #h-center {
+    width: 1000px;
+    height: auto;
+    background-color: transparent;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#h-center > .h-left {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#h-center > .h-left > a {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+}
+#h-center > .h-left > a > img {
+    /* width: 240px; */
+    /* height: 60px; */
+    width: 180px;
+    height: 45px;
+}
+#h-center > .h-left > .serach {
+    width: 475px;
+    height: 60px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#h-center > .h-left > .serach > form {
+    width: 475px;
+    height: 60px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#h-center > .h-left > .serach > form > input {
+    width: 300px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 16px;
+    text-align: left;
+    font: optional;
+    font-weight: normal;
+}
+#h-center > .h-left > .serach > form > input:focus {
+    outline: none;
+    border: 2.5px solid black;
+}
+#h-center > .h-left > .serach > form > button[type="submit"] {
+    width: 75px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-left: 0;
+    cursor: pointer;
+}
+#h-center > .h-left > .serach > form > select {
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    border-left: 0px;
+}
+#h-center > .h-left > .serach > form > select:focus {
+	outline: none;
+}
+#h-center > .h-right {
+    width: 150px;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+}
+#h-center > .h-right > a > button {
+    width: 75px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#h-center > .h-right > a > button:hover {
+    background-color: black;
+    color: white;
+}
+#h-center > .h-right > .iii {
+    width: 50px;
+    height: 25px;
+    background-color: transparent;
+    display: block;
+    cursor: pointer;
+}
+#h-center > .h-right > .iii > .ii {
+    width: 50px;
+    height: 5px;
+    background-color: black;
+    margin-bottom: 5px;
+}
+aside {
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px;
+    display: none;
+	z-index: 5;
+}
+aside > button {
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border: 1px solid rgb(196, 196, 196);
+}
+aside > button:first-of-type {
+    margin-bottom: 10px;
+}
+aside > button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+}
+aside > .user-information {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(196, 196, 196, 0.8);
+    border-radius: 20px;
+    padding: 10px;
+}
+aside > .user-information > .user-i-flex {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+aside > .user-information > .user-i-flex > a {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+}
+aside > .user-information > .user-i-flex > a > img {
+	width: 50px;
+	height: 50px;
+	background-color: transparent;
+}
+aside > .user-information > .user-i-flex > a > p {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    font: optional;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+aside > .user-information > .user-i-flex > a > p:hover {
+    border-bottom: 1px solid black;
+}
+aside > nav {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    display: block;
+}
+nav > ul.list {
+    margin-left: 20px;
+}
+nav > ul.list > li {
+    margin: 10px;
+}
+nav > ul.list > li > a:hover {
+    border-bottom: 1px solid blue;
+    color: blue;
+}
+/**********************/
+/* section은 content 영역이므로 페이지가 수행하는 기능마다 section의 html과 css는 다 다름 */
+section {
+	width: 100%;
+	height: auto;
+	background-color: transparent;
+}
+section > .main-page-img {
+	width: 100%;
+	height: 300px;
+	background-color: transparent;
+	background: linear-gradient(45deg, darkblue, skyblue);
+	position: relative;
+}
+section > .main-page-img > article {
+	width: 1000px;
+	height: auto;
+	background-color: transparent;
+	padding-right: 250px;
+	position: absolute;
+	top: 45%;
+	left: 50.5%;
+    transform: translate(-50%, -50%);
+}
+section > .main-page-img > article > h1 {
+	color: white;
+	font-size: xx-large;
+}
+section > .main-page-img > article > p {
+	font-size: large;
+	color: white;
+}
+/* section > .main-page-img > article > a {} */
+section > .main-page-img > article > a > button {
+	width: 150px;
+	height: 35px;
+	background-color: transparent;
+	border: 1px solid white;
+	color: white;
+	cursor: pointer;
+	margin-top: 50px;
+	font-size: 14px;
+}
+section > .main-page-img > article > a > button:hover {
+	background-color: white;
+	color: black;
+}
+section > .board-list {
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	background-color: transparent;
+}
+section > .board-list > .sort {
+	width: 1000px;
+	height: auto;
+	background-color: transparent;
+}
+section > .board-list > .sort > select {
+	width: 150px;
+	height: 30px;
+	background-color: white;
+	cursor: pointer;
+}
+section > .board-list > .sort > select:focus {
+	outline: none;
+}
+section > .board-list > article {
+	width: 1000px;
+	height: auto;
+	border-bottom: 1px solid black;
+	padding: 10px;
+	padding-right: 300px;
+	margin: 0 auto;
+}
+.board-list > article > p {
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.board-list > article > a {
+	width: auto;
+	height: auto;
+	background-color: transparent;
+}
+.board-list > article > a:hover {
+	text-decoration: underline;
+}
+.pagenation {
+	width: 650px;
+	height: auto;
+	background-color: transparent;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.pagenation > button {
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	border: 1px solid rgba(200, 200, 200, 0.75);
+	cursor: pointer;
+}
+.pagenation > button:focus {
+	background-color: black;
+	color: white;
+}
+/**********************/
+footer {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    /* border-top: 1px solid black; */
+}
+footer > .f-center {
+    width: 1000px;
+    height: 275px;
+    padding: 12.5px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	border-top: 1px solid black;
+}
+.f-center > .f-left {
+    width: 625px;
+    height: 250px;
+    background-color: transparent;
+    padding-right: 75px;
+}
+.f-center > .f-left > a > img {
+    width: 180px;
+    height: 45px;
+}
+.f-center > .f-left > p {
+    font-size: large;
+    margin: 3px;
+}
+.f-center > .f-right {
+    width: 375px;
+    height: 250px;
+    background-color: transparent;
+}
+.f-center > .f-right > ul.main {
+    width: 350px;
+    height: 40px;
+    display: flex;
+    line-height: 40px;
+}
+.f-center > .f-right > ul.main > li {
+    width: 125px;
+    height: 40px;
+    background-color: transparent;
+}
+.f-center > .f-right > ul.main > li > p {
+    display: block;
+    font-weight: bold;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.f-center > .f-right > ul.main > li > ul.sub {
+    width: 125px;
+    height: auto;
+    background-color: transparent;
+    display: block;
+}
+.f-center > .f-right > ul.main > li > ul.sub > li {
+    width: 125px;
+    height: 40px;
+    background-color: transparent;
+}
+.f-center > .f-right > ul.main > li > ul.sub > li > a {
+    display: block;
+    padding-left: 10px;
+}
+.f-center > .f-right > ul.main > li > ul.sub > li > a:hover {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+

@@ -1,0 +1,72 @@
+@charset "UTF-8";
+footer {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    /* border-top: 1px solid black; */
+}
+footer > .f-center {
+    width: 1000px;
+    height: 275px;
+    padding: 12.5px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	border-top: 1px solid black;
+}
+.f-center > .f-left {
+    width: 625px;
+    height: 250px;
+    background-color: transparent;
+    padding-right: 75px;
+}
+.f-center > .f-left > a > img {
+    width: 180px;
+    height: 45px;
+}
+.f-center > .f-left > p {
+    font-size: large;
+    margin: 3px;
+}
+.f-center > .f-right {
+    width: 375px;
+    height: 250px;
+    background-color: transparent;
+}
+.f-center > .f-right > ul.main {
+    width: 350px;
+    height: 40px;
+    display: flex;
+    line-height: 40px;
+}
+.f-center > .f-right > ul.main > li {
+    width: 125px;
+    height: 40px;
+    background-color: transparent;
+}
+.f-center > .f-right > ul.main > li > p {
+    display: block;
+    font-weight: bold;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.f-center > .f-right > ul.main > li > ul.sub {
+    width: 125px;
+    height: auto;
+    background-color: transparent;
+    display: block;
+}
+.f-center > .f-right > ul.main > li > ul.sub > li {
+    width: 125px;
+    height: 40px;
+    background-color: transparent;
+}
+.f-center > .f-right > ul.main > li > ul.sub > li > a {
+    display: block;
+    padding-left: 10px;
+}
+.f-center > .f-right > ul.main > li > ul.sub > li > a:hover {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}

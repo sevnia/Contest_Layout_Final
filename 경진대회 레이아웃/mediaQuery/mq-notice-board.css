@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@media (max-width: 450px) {
+	body {
+		padding: 3px;
+	}
+	header {
+		width: 100%;
+		height: auto;
+		background-color: transparent;
+	}
+	header > #h-center {
+		width: auto;
+		height: auto;
+		background-color: transparent;
+		margin: 0 auto;
+	}
+	#h-center > .h-left > .serach {
+		display: none;
+	}
+	section {
+		width: 100%;
+	}
+	section > article {
+		width: 100%;
+		height: auto;
+	}
+	.pagenation {
+		width: auto;
+		height: auto;
+		background-color: transparent;
+		display: flex;
+		justify-content: stretch;
+		align-items: center;
+		margin-left: 10px;
+		margin-top: 20px;
+	}
+	.pagenation > button {
+		width: 30px;
+		height: 30px;
+		background-color: white;
+		border: 1px solid rgba(200, 200, 200, 0.75);
+		cursor: pointer;
+	}
+	.pagenation > button:focus {
+		background-color: black;
+		color: white;
+	}
+	footer > .f-center {
+		width: 100%;
+		height: auto;
+		padding-bottom: 25px;
+	}
+	footer > .f-center > .f-left {
+		width: 100%;
+		height: auto;
+	}
+}

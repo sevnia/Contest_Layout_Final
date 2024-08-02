@@ -1,0 +1,65 @@
+첫 번째 버전
+<footer>
+	<div class="f-center">
+
+		<div class="f-left">
+			<a href="#"><img src="/img/logo.png" alt="로고입니다."></a>
+			<h2>Copyright(2024. 유노베이션 inc. all rights reserved.)</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				Sunt deserunt tempore id veritatis quasi hic consequatur,
+				eius ipsum fugiat, vero totam alias recusandae distinctio!
+				Perspiciatis voluptatum dolorum ex labore aut.
+			</p>
+		</div>
+
+		<div class="f-right">
+			<ul class="main">
+				<li>
+					<p>list 1</p>
+					<ul class="sub">
+						<li><a href="#">list 1</a></li>
+						<li><a href="#">list 2</a></li>
+						<li><a href="#">list 3</a></li>
+						<li><a href="#">list 4</a></li>
+					</ul>
+				</li>
+				<li>
+					<p>list 2</p>
+					<ul class="sub">
+						<li><a href="#">list 1</a></li>
+						<li><a href="#">list 2</a></li>
+						<li><a href="#">list 3</a></li>
+						<li><a href="#">list 4</a></li>
+					</ul>
+				</li>
+				<li>
+					<p>list 3</p>
+					<ul class="sub">
+						<li><a href="#">list 1</a></li>
+						<li><a href="#">list 2</a></li>
+						<li><a href="#">list 3</a></li>
+						<li><a href="#">list 4</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+        
+	</div>
+</footer>
+
+두번째 버전
+<footer>
+	<div class="f-center">
+		<div class="f-left">
+			<a href="#"><img src="/img/logo.png" alt="로고입니다."></a>
+			<h2>Copyright(2024. 유노베이션 inc. all rights reserved.)</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				Sunt deserunt tempore id veritatis quasi hic consequatur,
+				eius ipsum fugiat, vero totam alias recusandae distinctio!
+				Perspiciatis voluptatum dolorum ex labore aut.
+			</p>
+		</div>
+	</div>
+</footer>

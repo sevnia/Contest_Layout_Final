@@ -1,0 +1,77 @@
+@charset "UTF-8";
+aside {
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px;
+    display: none;
+	z-index: 3;
+}
+aside > button {
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border: 1px solid rgb(196, 196, 196);
+}
+aside > button:first-of-type {
+    margin-bottom: 10px;
+}
+aside > button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+}
+aside > .user-information {
+	width: 100%;
+	height: auto;
+    border: 1px solid rgba(196, 196, 196, 0.8);
+    border-radius: 20px;
+    padding: 10px;
+}
+aside > .user-information > .user-i-flex {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+aside > .user-information > .user-i-flex > a {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+}
+aside > .user-information > .user-i-flex > a > img {
+	width: 50px;
+	height: 50px;
+}
+aside > .user-information > .user-i-flex > a > p {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    font: optional;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+aside > .user-information > .user-i-flex > a > p:hover {
+    border-bottom: 1px solid black;
+}
+aside > nav {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    display: block;
+}
+nav > ul.list {
+    margin-left: 20px;
+}
+nav > ul.list > li {
+    margin: 10px;
+}
+nav > ul.list > li > a:hover {
+    border-bottom: 1px solid blue;
+    color: blue;
+}

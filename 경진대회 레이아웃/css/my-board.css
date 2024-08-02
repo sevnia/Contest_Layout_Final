@@ -1,0 +1,87 @@
+@charset "UTF-8";
+section {
+	width: 1000px;
+	height: auto;
+	padding: 20px;
+	background-color: transparent;
+	margin: 0 auto;
+}
+.user-account-profile {
+	width: 100%;
+	height: auto;
+	background-color: transparent;
+	padding: 10px;
+	display: flex;
+	justify-content: start;
+}
+.user-account-profile > a {
+	width: auto;
+	height: auto;
+	background-color: transparent;
+	margin-right: 25px;
+}
+.user-account-profile > a > img {
+	width: 65px;
+	height: 65px;
+	background-color: transparent;
+	border: 1px solid rgb(198, 198, 198);
+	/* padding: 20px; */
+	border-radius: 50%;
+}
+.user-account-profile > .user-account-name {
+	width: auto;
+	height: auto;
+	background-color: transparent;
+}
+.user-board-list {
+	width: 100%;
+	height: auto;
+	background-color: transparent;
+}
+article.user-board-list > table {
+	width: 100%;
+	height: auto;
+	line-height: 40px;
+	background-color: transparent;
+	border-top: 1px solid black;
+	font: optional;
+	font-size: 17px;
+	text-align: center;
+}
+article.user-board-list > table > tr, td {
+	background-color: transparent;
+	border-bottom: 1px solid rgb(195, 195, 195);
+	cursor: pointer;
+}
+article.user-board-list > table > tr, td > a > button {
+	width: 75px;
+	height: 30px;
+	background-color: transparent;
+	border: 1px solid rgb(200, 200, 200);
+	cursor: pointer;
+}
+article.user-board-list > table > tr, td > a > button:hover {
+	background-color: black;
+	color: white;
+}
+.user-board-list > .pagenation {
+	width: 650px;
+	height: auto;
+	background-color: transparent;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 20px;
+	margin: 0 auto;
+}
+.user-board-list > .pagenation > button {
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	border: 1px solid rgba(200, 200, 200, 0.75);
+	cursor: pointer;
+}
+.user-board-list > .pagenation > button:focus {
+	background-color: black;
+	color: white;
+}

@@ -1,0 +1,113 @@
+@charset "UTF-8";
+header {
+    height: auto;   /* 높이는 auto지만 img의 높이가 60이므로 height: 60px */
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+header > #h-center {
+    width: 1000px;
+    height: auto;
+    background-color: transparent;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#h-center > .h-left {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#h-center > .h-left > a {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+}
+#h-center > .h-left > a > img {
+    /* width: 240px; */
+    /* height: 60px; */
+    width: 180px;
+    height: 45px;
+}
+#h-center > .h-left > .serach {
+    width: 475px;
+    height: 60px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#h-center > .h-left > .serach > form {
+    width: 475px;
+    height: 60px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#h-center > .h-left > .serach > form > input {
+    width: 300px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 16px;
+    text-align: left;
+    font: optional;
+    font-weight: normal;
+}
+#h-center > .h-left > .serach > form > input:focus {
+    outline: none;
+    border: 2.5px solid black;
+}
+#h-center > .h-left > .serach > form > button[type="submit"] {
+    width: 75px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-left: 0;
+    cursor: pointer;
+}
+#h-center > .h-left > .serach > form > select {
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    border-left: 0px;
+}
+#h-center > .h-right {
+    width: calc(1000px - 725px);
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+}
+#h-center > .h-right > a > button {
+    width: 85px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#h-center > .h-right > a > button:hover {
+    background-color: black;
+    color: white;
+}
+#h-center > .h-right > .iii {
+    width: 50px;
+    height: 25px;
+    background-color: transparent;
+    display: block;
+    cursor: pointer;
+}
+#h-center > .h-right > .iii > .ii {
+    width: 50px;
+    height: 5px;
+    background-color: black;
+    margin-bottom: 5px;
+}

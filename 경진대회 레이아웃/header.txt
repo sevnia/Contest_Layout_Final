@@ -1,0 +1,30 @@
+<header>
+	<div id="h-center">
+
+		<div class="h-left">
+			<a href="/main.html"><img src="/img/logo-1.png" alt="로고입니다." title="홈으로 바로가기"></a>
+			<div class="serach">
+				<form action="#" method="get" autocomplete="off">
+					<input type="search" id="search" name="search" placeholder="검색" title="검색어를 입력하세요." role="search">
+					<button type="submit" id="find">검색하기</button>
+					<select name="select-category" id="select-category">
+						<option value="all">전체</option>
+						<option value="recent">최신순</option>
+						<option value="old">옛날순</option>
+						<option value="recommand">추천순</option>
+					</select>
+				</form>
+			</div>
+		</div>
+
+		<div class="h-right">
+			<a href="/sign/sign-in.html"><button>로그인</button></a>
+			<div class="iii">
+				<div class="ii"></div>
+				<div class="ii"></div>
+				<div class="ii"></div>
+			</div>
+		</div>
+
+	</div>
+</header>

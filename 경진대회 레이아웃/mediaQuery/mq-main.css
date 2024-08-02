@@ -1,0 +1,56 @@
+@charset "UTF-8";
+@media (max-width: 450px) {
+	body {
+		padding: 3px;
+	}
+	header {
+		width: 100%;
+		height: auto;
+		background-color: transparent;
+	}
+	header > #h-center {
+		width: auto;
+		height: auto;
+		background-color: transparent;
+		margin: 0 auto;
+	}
+	#h-center > .h-left > .serach {
+		display: none;
+	}
+	section > .main-page-img {
+		width: 100%;
+	}
+	section > .main-page-img > article {
+		width: 100%;
+		padding-right: 0px;
+		top: 150px;
+	}
+	section > .board-list {
+		width: 100%;
+	}
+	section > .board-list > article {
+		width: 100%;
+		height: auto;
+		padding: 10px
+	}
+	.board-list > article > a {
+		width: auto;
+		height: auto;
+		background-color: transparent;
+	}
+	.board-list > article > a:hover {
+		text-decoration: underline;
+	}
+	.pagenation {
+		width: 100%;
+	}
+	footer > .f-center {
+		width: 100%;
+		height: auto;
+		padding-bottom: 25px;
+	}
+	footer > .f-center > .f-left {
+		width: 100%;
+		height: auto;
+	}
+}

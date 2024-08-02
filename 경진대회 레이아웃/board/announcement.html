@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="icon" href="/img/page-icon.png" type="icon">
+    <title>공지사항</title>
+    <link rel="stylesheet" href="/css/format.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/aside.css">
+    <link rel="stylesheet" href="/css/announcement.css">
+    <link rel="stylesheet" href="/css/footer.css">
+	<link rel="stylesheet" href="/mediaQuery/mq-announcement.css">
+</head>
+<body>
+    <header>
+		<div id="h-center">
+	
+			<div class="h-left">
+				<a href="/main.html"><img src="/img/logo-1.png" alt="로고입니다." title="홈으로 바로가기"></a>
+				<!-- <div class="serach">
+					<form action="#" method="get" autocomplete="off">
+						<input type="search" id="search" name="search" placeholder="검색" title="검색어를 입력하세요." role="search">
+						<button type="submit" id="find">검색하기</button>
+						<select name="select-category" id="select-category">
+							<option value="all">전체</option>
+							<option value="recent">최신순</option>
+							<option value="old">옛날순</option>
+							<option value="recommand">추천순</option>
+						</select>
+					</form>
+				</div> -->
+			</div>
+	
+			<div class="h-right">
+				<a href="/sign/sign-in.html"><button>로그인</button></a>
+				<div class="iii">
+					<div class="ii"></div>
+					<div class="ii"></div>
+					<div class="ii"></div>
+				</div>
+			</div>
+	
+		</div>
+	</header>
+
+	<aside>
+		<a href="/main.html"><img src="/img/logo.png" alt="로고입니다." title="홈으로 바로가기"></a><hr>
+	
+		<button id="hide-side">사이드 바 닫기</button>
+		<button>로그아웃</button><hr>
+		
+		<div class="user-information">
+			<div class="user-i-flex">
+				<a href="#"><img src="/img/anonymous.png" alt="모든 계정의 프로필 사진은 익명으로 되어 있습니다."></a>
+				<a href="/board/my-board.html"><p>user id</p></a>
+			</div>
+		</div><hr>
+	
+		<nav>
+			<ul class="list">
+				<li><a href="/sign/sign-in.html">로그인</a></li>
+				<li><a href="/sign/sign-up.html">회원가입</a></li>
+				<li><a href="/board/notice-board.html">게시판 바로가기</a></li>
+				<li><a href="/board/announcement.html">공지사항 바로가기</a></li>
+				<li><a href="/board/my-board.html">내가 올린 게시글 확인하기</a></li>
+			</ul>
+		</nav>
+	</aside>
+
+    <section>
+		<p class="announcement-title">공지사항</p><br>
+
+		<article class="announcement-search">
+			<form action="#" method="get" autocomplete="off">
+				<input type="text" id="announcement-search" name="announcement-search" role="search" placeholder="제목, 내용">
+				<button type="submit">찾기</button>
+			</form>
+		</article>
+
+		<ul class="announcement-list">
+            <li><a href="#"><p>제목 1</p><span>2024-07-22</span></a></li>
+            <li><a href="#"><p>제목 2</p><span>2024-07-22</span></a></li>
+            <li><a href="#"><p>제목 3</p><span>2024-07-22</span></a></li>
+            <li><a href="#"><p>제목 4</p><span>2024-07-22</span></a></li>
+            <li><a href="#"><p>제목 5</p><span>2024-07-22</span></a></li>
+            <li><a href="#"><p>제목 6</p><span>2024-07-22</span></a></li>
+            <li><a href="#"><p>제목 7</p><span>2024-07-22</span></a></li>
+            <li><a href="#"><p>제목 8</p><span>2024-07-22</span></a></li>
+            <li><a href="#"><p>제목 9</p><span>2024-07-22</span></a></li>
+            <li><a href="#"><p>제목 10</p><span>2024-07-22</span></a></li>
+		</ul>
+
+		<div class="pagenation">
+			<button><<</button>	<!-- 가장 앞으로 -->
+			<button><</button>	<!-- 10페이지 씩 뒤로 -->
+			<button>1</button>
+			<button>2</button>
+			<button>3</button>
+			<button>4</button>
+			<button>5</button>
+			<button>6</button>
+			<button>7</button>
+			<button>8</button>
+			<button>9</button>
+			<button>10</button>
+			<button>></button>	<!-- 10페이지 씩 앞으로 -->
+			<button>>></button>	<!-- 가장 뒤로 -->
+		</div>
+    </section>
+
+    <footer>
+		<div class="f-center">
+			<div class="f-left">
+				<a href="#"><img src="/img/logo.png" alt="로고입니다."></a>
+				<h2>Copyright(2024. 유노베이션 inc. all rights reserved.)</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					Sunt deserunt tempore id veritatis quasi hic consequatur,
+					eius ipsum fugiat, vero totam alias recusandae distinctio!
+					Perspiciatis voluptatum dolorum ex labore aut.
+				</p>
+			</div>
+		</div>
+	</footer>
+
+    <script src="/js/side-bar.js"></script>
+</body>
+</html>
